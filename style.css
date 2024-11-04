@@ -1,5 +1,6 @@
 html,
 body{
+
     height: 100%;
     width: 100%;
 }
@@ -26,5 +27,45 @@ body{
 #info,
 #form,
 #antet{
-    flex:1;
+    flex: 1;
+}
+#info,
+#antet{
+    background-color:rgb(240, 240, 239);
+}
+#info>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 60%;
+    height: 100%;
+}
+#info{  
+    font-size: 25px;
+    padding: 40px;
+}
+p{
+    margin: 0px;
+}
+p:nth-child(3){
+    margin:20px;
+    margin-left: 0px;
+}
+#form{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.title{
+    font-size: 25px;
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+
+}
+.row{
+    display: flex;
 }
