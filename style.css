@@ -32,7 +32,7 @@ body{
     flex-direction: column;
 }
 #info,
-#form-contet,
+#form-content,
 #antet{
     flex:1;
 }
@@ -70,7 +70,7 @@ p:nth-child(3){
     margin:20px;
     margin-left: 0px;
 }
-#form-contet{
+#form-content{
     padding: 40px;
     padding-bottom: 60px;
     display: flex;
